@@ -1,0 +1,11 @@
+<% members = ['Carolien', 'Lena'] %>
+
+<div class="text-center padded">
+<h1>Team</h1>
+  <ul class="list-inline">
+    <% members.each do |member| %>
+          <li> <%= image_tag "https://unsplash.it/200" %>
+          <h2><%= member %></h2></li>
+    <% end %>
+    </ul>
+</div>
